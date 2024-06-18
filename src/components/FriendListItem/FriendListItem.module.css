@@ -1,0 +1,25 @@
+.friendWrap {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.friendName {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.text {
+  font-weight: 600;
+}
+
+.online {
+  composes: text;
+  color: lightgreen;
+}
+
+.offline {
+  composes: text;
+  color: red;
+}
